@@ -11,7 +11,7 @@ Requires Python 3.14. No virtual environment is used — install
 dependencies system-wide with pip:
 
 ```bash
-pip install pandas requests jupyter pyarrow
+pip install pandas requests jupyter pyarrow numpy matplotlib
 ```
 
 Launch Jupyter and run the notebooks in order:
