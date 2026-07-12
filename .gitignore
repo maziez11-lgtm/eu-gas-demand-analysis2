@@ -1,0 +1,27 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Data (fetched from APIs, regenerated locally)
+data/*.parquet
+data/*.csv
+data/cache/
+
+# Secrets - never commit API keys
+*.env
+.env*
+
+# Jupyter
+*.ipynb_checkpoints
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
